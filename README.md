@@ -149,7 +149,7 @@ Ostali programi so namenjeni utrjevanju snovi. Vsak izmed teh naj bi izpisal ena
 
 Vse datoteke lahko prenesete na svoj računalnik v formatu `.zip`, s klikom na gumb `cone or download`.
 
-Razširite datoteko (unzip). Pojdite v vašo datoteko, in kopirajte `pot` to te datoteke. To storite tako, da kliknete na pot, kot prikazano v spodnji sliki, in kopirate niz. Vaša pot bo podobnja naslednji : `C:\Users\mojca\Documents\Delavnica-Progrmairanja\Predavanje1``
+Razširite datoteko (unzip). Pojdite v vašo datoteko, in kopirajte `pot` to te datoteke. To storite tako, da kliknete na pot, kot prikazano v spodnji sliki, in kopirate niz. Vaša pot bo podobnja naslednji : `C:\Users\mojca\Documents\Delavnica-Progrmairanja\Predavanje1`
 ![Vaša pot](./pot.PNG)
 
 Odprite ukazno okno (angleško "command prompt", skrajšano kot `cmd`. Oprite `start` in iščite za aplikacijo `cmd`.
