@@ -87,7 +87,7 @@ Python pozna tudi nekatere osnovne operacije z nizi:
 
 Pri tem pazimo, da `2 * "Mojca "` ni veljaven stavek, saj bi v tem primeru radi množili `2` z `"Mojca "` in ne `"Mojca "` z `2`.
 
-Osnovnih operacij je več in jih bomo spoznali v sledečih predavanjih.
+Osnovnih operacij je še več in jih bomo spoznali v sledečih predavanjih.
 
 ### Spreminjanje tipa vrednosti
 Včasih bi radi spremenili tip vrednosti spremenljivke. Radi bi na primer jemali neko celo število kot niz. V ta namen so ponujene funkcije, ki to opravijo za nas.
@@ -98,10 +98,10 @@ opis = "pi = " + pi
 print(opis)
 ```
 
-Ta program naj bi izpisal `pi = 3.14`, a če tak program zaženemo, nam bo izpisal napako. Python namreč ne ve, kako bi seštel niz z racionalnim številom. Ve namreč le, kako sešteje dva niza. V ta namen bi radi tip vrednosti `3.14` spremenili v niz:
+Ta program naj bi izpisal `pi = 3.14`, a če tak program zaženemo, nam bo izpisal napako. Python namreč ne ve, kako bi seštel niz z racionalnim številom. Ve namreč le, kako sešteje dva niza. V ta namen bi radi tip vrednosti spremenljivke pi spremenili v niz:
 
 ```
-opis = "pi = " + str(3.14)
+opis = "pi = " + str(pi)
 print(opis)
 ```
 
@@ -114,7 +114,7 @@ Pozorni bodimo, da lahko funkcija povzroči napako;
 * stavek `ime = int("Mojca")` bo povzročil napako, saj funkcija `str` ne ve, kako naj niz `"Mojca"` spremeni v celo število.
 * Stavek `x = int("7")` bo bo spremenljivki `x` priredil vrednost `7.
 * Stavek `y = float("7")` bo spremenljivki `y` priredil vrednost `7.0`.
-* stavek str = str(y)`  bo spremenljivki `str` priredil vrednost `"7.0"`.
+* stavek `str = str(y)`  bo spremenljivki `str` priredil vrednost `"7.0"`.
 
 ### Komentar
 
@@ -138,7 +138,7 @@ pi = 3.14
 ```
 
 # PRAKTIČNI DEL
-V datoteki boste našli več programov:
+Na vrhu te spletne strani boste našli več programov:
 * [program0.py](./program0.py)
 * [program1.py](./program1.py)
 * ...
@@ -147,7 +147,7 @@ V datoteki boste našli več programov:
 Program  `program0.py` deluje kot demonstaracija teoretičnega dela.
 Ostali programi so namenjeni utrjevanju snovi. Vsak izmed teh naj bi izpisal enak niz, oblike "ime priimek starost". Vsak program vsebuje napako, ki jo je potrebno odpraviti, da se program pravilno zažene.
 
-Vse datoteke lahko prenesete na svoj računalnik v formatu `.zip`, sklikom na gumb `cone or download`.
+Vse datoteke lahko prenesete na svoj računalnik v formatu `.zip`, s klikom na gumb `cone or download`.
 
 Razširite datoteko (unzip). Pojdite v vašo datoteko, in kopirajte `pot` to te datoteke. To storite tako, da kliknete na pot, kot prikazano v spodnji sliki, in kopirate niz. Vaša pot bo podobnja naslednji : `C:\Users\mojca\Documents\Delavnica-Progrmairanja\Predavanje1``
 ![Vaša pot](./pot.PNG)
